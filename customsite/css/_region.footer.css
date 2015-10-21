@@ -1,0 +1,30 @@
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer { background: #302f3e; }
+
+.footer h3 { font-size: 30px; line-height: 1.1; text-transform: capitalize; margin-bottom: 0; }
+
+.footer .footer-content { padding: 80px 0; }
+
+.footer .footer-col { float: left; }
+
+.footer .footer-col-size1 { width: 34%; }
+.footer .footer-col-size2 { width: 34%; }
+.footer .footer-col-size3 { width: 31%; }
+
+$breakpoint-mobile { 
+	.footer .footer-content { padding: 45px 0; }
+	
+	.footer .footer-col { float: none; }
+	
+	.footer .footer-col-size1,
+	.footer .footer-col-size2,
+	.footer .footer-col-size3 { width: 100%; padding-bottom: 15px; }
+
+}
+
+$breakpoint-mobile-portrait { 
+	.footer h3 { font-size: 25px; }
+}

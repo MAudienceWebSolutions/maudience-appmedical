@@ -1,0 +1,48 @@
+/* ------------------------------------------------------------ *\
+	List
+\* ------------------------------------------------------------ */
+
+[class^="list-"] { list-style: none outside none; }
+
+/* List Contacts */
+
+
+.list-contacts { font-size: 18px; font-weight: 300; color: #959595; margin-top: -3px;  }
+
+.list-contacts strong { font-size: 24px; color: #585977; font-weight: 600; }
+.list-contacts li { line-height: 1.5; 	 }
+.list-contacts li > a { color: #959595; }
+.list-contacts li > a:hover {text-decoration: underline; }
+
+.list-contact-primary li { line-height: 1.9; padding-bottom: 3px; }
+
+/* List Links */
+
+.list-links { font-size: 14px; font-weight: 700; margin-right: 80px; }
+
+.list-links li { padding: 14px 0; border-bottom: 1px solid #fff; }
+.list-links li:last-child { border: none; }
+.list-links a { color: #fff; text-decoration: none; }
+.list-links a:hover { color: #ff7b0d; }
+
+/* List Contacts Primary */
+
+.list-contacts-primary { padding: 21px 21px 19px 50px; }
+
+.list-contacts-primary li { padding-bottom: 9px; position: relative; }
+.list-contacts-primary li:before { content:''; background: url(images/rhombus.png) no-repeat 0 0;width: 7px; height: 7px; display: inline-block; position: absolute; top: 6px; left: -17px; }
+
+.list-contacts-primary strong { font-size: 16px; line-height: 1; font-weight: 600; display: block; padding-bottom: 2px; }
+.list-contacts-primary small { font-size: 12px; font-weight: 300; }
+.list-contacts-primary a { text-decoration: none; }
+.list-contacts-primary a:hover { text-decoration: underline; }
+
+$breakpoint-mobile { 
+	.list-links { margin-right: 0; }
+}
+
+$breakpoint-mobile-portrait { 
+	.list-links li { padding: 8px 0; }
+	
+}
+

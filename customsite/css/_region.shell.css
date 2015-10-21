@@ -1,0 +1,9 @@
+/* ------------------------------------------------------------ *\
+	Shell
+\* ------------------------------------------------------------ */
+
+.shell { max-width: $shell-max-width; margin: auto; }
+
+$breakpoint-small-desktop { 
+	.shell { padding: 0 20px; }
+}

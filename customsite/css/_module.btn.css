@@ -1,0 +1,39 @@
+/* ------------------------------------------------------------ *\
+	Button
+\* ------------------------------------------------------------ */
+
+.btn { font-size: 14px; font-weight: 600; color: #fff; padding: 8px 27px; border: 2px solid #fff; border-radius: 10px; display: inline-block; vertical-align: middle; -webkit-appearance: none; -moz-appearance: none; appearance: none; text-decoration: none; transition: all 0.2s; }
+.btn:hover { border-color: #ff7b0d; }
+.btn i { margin-left: 7px; }
+
+.btn.btn-orange { color: #fff; background: #ff7b0d; padding: 4px 29px; text-transform: uppercase; border-color: #ff7b0d; box-shadow: 0 5px 5px rgba(133,133,133,.15);}
+.btn.btn-orange:hover { border-color: #b5590b; text-decoration: none;  }
+
+
+.btn-menu { display: none; height: 9px; padding-top: 9px; position: absolute; top: 53px; right: 20px; }
+.btn-menu span { position: relative; display: block; width: 30px; height: 15px; border-top: 3px solid #f58020; }
+ 
+.btn-menu span:before,
+.btn-menu span:after { position: absolute; width: 100%; height: 3px; background: #f58020; content: ''; }
+
+.btn-menu span:before { top: -9px; }
+.btn-menu span:after { top: 3px; }
+
+.btn-menu span:before,
+.btn-menu span:after,
+.btn-menu span { transition: all .3s linear; }
+
+.btn-menu.active span { border-color: transparent; }
+.btn-menu.active span:before,
+.btn-menu.active span:after { background: #868686; }
+
+.btn-menu.active span:before { -webkit-transform: rotate(45deg) translate(2.5px, 6px); -ms-transform: rotate(45deg) translate(2.5px, 6px); transform: rotate(45deg) translate(2.5px, 6px); }
+.btn-menu.active span:after { -webkit-transform: rotate(-45deg) translate(2.5px, -6px); -ms-transform: rotate(-45deg) translate(2.5px, -6px); transform: rotate(-45deg) translate(2.5px, -6px); }
+
+$breakpoint-mobile {
+	.btn-menu { display: block; }
+}
+
+@media only screen and (max-width: 340px){
+	.btn-menu { right: 10px; }
+}

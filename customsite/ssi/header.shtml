@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--#include virtual="head.shtml" -->
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="shell">
+			<a href="#" class="logo">App Medical</a>
+
+			<a href="#" class="btn-menu">
+				<span></span>
+			</a>
+
+			<nav class="nav">
+				<ul>
+					<li class="current">
+						<a href="#">Home</a>
+					</li>
+					
+					<li>
+						<a href="#">About</a>
+					</li>
+					
+					<li>
+						<a href="#">PHYSICIANS</a>
+					</li>
+					
+					<li>
+						<a href="#">Support</a>
+					</li>
+					
+					<li>
+						<a href="#">Contact Us</a>
+					</li>
+				</ul>
+			</nav><!-- /.nav -->
+		</div><!-- /.shell -->
+	</header><!-- /.header -->

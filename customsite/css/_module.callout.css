@@ -1,0 +1,29 @@
+/* ------------------------------------------------------------ *\
+	Callout
+\* ------------------------------------------------------------ */
+
+.callout { background: #ff7b0d; text-align: center; font-size: 18px; line-height: 1.44; color: #fff; padding:40px 0; box-shadow: 0 5px 5px rgba(85,85,85,.2); }
+
+.callout .callout-content  { padding: 0 100px 25px;  }
+
+/*  Callout Primary  */
+
+.callout-primary { background: #ff7b0d; text-align: center; padding: 45px 0 40px; }
+
+.callout-primary h1 { margin-bottom: 5px; line-height: 1.3;   }
+
+.callout-primary .callout-content { padding-bottom: 35px;  }
+.callout-primary .callout-btn { padding: 4px 30px;  }
+
+$breakpoint-mobile { 
+	.callout .callout-content { padding: 0 50px 25px; }	
+}
+
+$breakpoint-mobile-portrait { 
+	.callout .callout-content { padding: 0 25px 25px; }
+	.callout-primary h1 { font-size: 30px;  }	
+	.callout-primary h4  {  font-size: 20px;  }	
+	.callout-primary .callout-content { padding-bottom: 15px;  }	
+}
+
+

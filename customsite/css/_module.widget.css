@@ -1,0 +1,19 @@
+/* ------------------------------------------------------------ *\
+	Widget
+\* ------------------------------------------------------------ */
+
+.widgets { list-style: none outside none; }
+
+.widget { background: #ff7b0d; color: #ffe3cb;  border-radius: 10px; margin-bottom: 53px;  }
+
+.widget .widget-title { font-size: 21px; color: #ffe3cb; font-weight: 600; border-radius: 0 0 10px 10px; border-bottom: 1px solid #ffac66; padding: 23px 0  10px 27px; }
+
+$breakpoint-mobile { 
+	.widget { width: 48%; float: left;  margin: 0 1%; }
+}
+
+$breakpoint-mobile-portrait { 
+	.widget { width: 100%; float: none; margin: 0 0 10% 0; }
+}
+
+

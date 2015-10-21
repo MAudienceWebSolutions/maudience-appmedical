@@ -1,0 +1,11 @@
+/* ------------------------------------------------------------ *\
+	Intro
+\* ------------------------------------------------------------ */
+
+.intro {background: #ffe4cd; background: radial-gradient(circle at center,  #ffe4cd 1%,#ffad69 8%,#ff9136 19%,#ff9136 44%,#ff9136 55%); background-position: -165px 21px;  text-align: center; padding: 36px 0; }
+
+ .intro img { max-width: 812px; width: 100%;  }
+
+$breakpoint-mobile-portrait { 
+	.intro h3 { font-size: 25px; }
+}

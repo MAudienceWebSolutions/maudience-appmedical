@@ -1,0 +1,23 @@
+/* ------------------------------------------------------------ *\
+	Col
+\* ------------------------------------------------------------ */
+
+.col { float: left; }
+
+.col-size1 { width: 39.7%; }
+.col-size2  {width: 34%;  }
+.col-size3 {  float: right; }
+
+
+$breakpoint-small-desktop { 
+	.col-size1 { width: 43%} 
+	.col-size2 { width: 36%} 
+	.col-size3 {/*  width: 35%; */ } 
+}
+
+$breakpoint-mobile { 
+	.col  { float: none; }
+	.col-size1,
+	.col-size2,
+	.col-size3 { width: 100%;  padding-bottom: 15px; }
+}

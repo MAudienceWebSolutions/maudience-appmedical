@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------ *\
+	Socials
+\* ------------------------------------------------------------ */
+
+.socials  { margin-top: 7px; margin-left: 5px;  }
+
+.socials ul { list-style: none;  }
+.socials li { float: left; padding: 0 10px; transition: all 0.2s; }
+.socials li:last-child  { padding-right: 5px;  }
+.socials li:hover  { opacity: .7; }
+
+$breakpoint-mobile { 
+	.socials li:first-child { padding-left: 0; }
+}
+

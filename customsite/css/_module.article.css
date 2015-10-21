@@ -1,0 +1,10 @@
+/* ------------------------------------------------------------ *\
+	Article
+\* ------------------------------------------------------------ */
+
+.article { padding-bottom: 39px; }
+
+.article p { font-weight: 600; color: #000; }
+
+.article .article-head { padding-bottom: 5px; }
+.article .article-title { font-size: 24px; font-weight: 600; color: #41d1c7; }

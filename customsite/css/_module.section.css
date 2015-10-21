@@ -1,0 +1,64 @@
+/* ------------------------------------------------------------ *\
+	Section
+\* ------------------------------------------------------------ */
+
+.section a  { color: #ff7b0d; text-decoration: none;  }
+.section a:hover  { text-decoration: underline;  }
+.section h2  { margin-bottom: 10px;  }
+
+.section .section-content { width: 68%; float: left;  padding: 89px 0 50px; }
+.section .section-content p { font-size: 16px; line-height: 1.63; color: #000; margin-bottom: 20px;  }
+.section .section-image  { width: 28%; float: left; padding: 65px 15px 60px 35px; margin-right: 15px;  }
+
+.section .ico-bg-green { background: #d7d954; display: inline-block; border-radius: 50%; padding: 63px 43px; box-shadow: 0 5px 5px rgba(88,89,119,.1) }
+.section .ico-bg-blue  { background: #8ad1cc;  display: inline-block; border-radius: 50%; padding: 70px 47px; box-shadow: 0 5px 5px rgba(88,89,119,.1) }
+.section .ico-bg-orange  { background: #ff9136; display: inline-block; border-radius: 50%; padding: 56px 84px;  box-shadow: 0 5px 5px rgba(88,89,119,.1)}
+
+/*  Section Primary  */
+
+.section-primary { background: #ebebeb; padding-bottom: 20px;  }
+
+.section-primary h2 { margin-bottom: 15px;  }
+
+.section-primary .section-content { padding: 89px 0 50px 60px; }
+.section-primary .section-image { padding-top: 70px; }
+
+/*  Section Secondary  */
+
+.section-secondary { padding: 55px 0 60px; }
+
+/*  Section Articles  */
+
+.section-articles h1 { font-size: 36px; font-weight: 600; color: #302f3e; }
+.section-articles .section-head { padding-bottom: 12px;  }
+
+
+$breakpoint-small-desktop { 
+	.section-primary .section-image { padding: 95px 15px 60px 15px;}
+	.section .section-image i {  transform: scale(.8,.8); }
+	.section .ico-bg-green { padding: 41px 20px; }
+	.section .ico-bg-blue { padding: 48px 26px; }
+	.section .ico-bg-orange  { padding: 35px 61px; }
+}
+
+$breakpoint-mobile { 
+	.section { text-align: center; }
+
+	.section .section-content { width: 100%; float: none; padding-bottom: 0; padding-top: 40px;  }
+	.section .section-image  {width: 100%; float: none; padding: 25px 0 30px; }
+
+	.section-primary  { padding: 20px 0 5px;  }
+	
+	.section-primary .section-content { padding: 0 0 50px 0; }
+	.section.section-primary .section-image  { padding-bottom: 0;  }
+	
+	.section-secondary {text-align: left;  padding: 40px 0 45px; }
+}
+
+$breakpoint-mobile-portrait { 
+	.section .section-image i {  transform: scale(.6,.6); }
+	.section.section-primary .section-image  { padding-bottom: 10px;  }
+	.section .ico-bg-green { padding: 24px 5px; }
+	.section .ico-bg-blue { padding: 37px 15px; }
+	.section .ico-bg-orange  { padding: 22px 50px; }
+}

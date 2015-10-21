@@ -1,0 +1,9 @@
+/* ------------------------------------------------------------ *\
+	Content
+\* ------------------------------------------------------------ */
+
+.content { width: 68%; float: left; padding-right: 70px; padding-top: 50px; }
+
+$breakpoint-mobile { 
+	.content { width: 100%; float: none; }
+}

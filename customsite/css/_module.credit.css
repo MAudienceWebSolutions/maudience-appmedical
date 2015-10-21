@@ -1,0 +1,11 @@
+/* ------------------------------------------------------------ *\
+	Credit
+\* ------------------------------------------------------------ */
+
+.credits h4 { font-size: 21px; line-height: 1.71; font-weight: 700; }
+.credits a { text-decoration: none; }
+.credits a:hover { color: #ff7b0d; }
+
+$breakpoint-mobile-portrait { 
+	.credits h4 { font-size: 18px; }
+}

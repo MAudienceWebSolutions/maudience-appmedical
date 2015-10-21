@@ -1,0 +1,11 @@
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header { padding: 35px 0 25px; }
+
+.header .logo { float: left;  }
+
+@media only screen and (max-width: 340px){
+	.header .logo {margin-left: -13px; }
+}

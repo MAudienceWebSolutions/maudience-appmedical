@@ -1,0 +1,54 @@
+	<footer class="footer">
+		<div class="shell">
+			<div class="footer-content">
+				<div class="footer-col footer-col-size1">
+					<h3>New Business</h3>
+
+					<ul class="list-links">
+						<li>
+							<a href="#">Rhoncus Risus</a>
+						</li>
+						
+						<li>
+							<a href="#">Pellentesque</a>
+						</li>
+						
+						<li>
+							<a href="#">Sodales Libero</a>
+						</li>
+					</ul><!-- /.list-links -->
+				</div><!-- /.footer-col footer-col-size1 -->
+				
+				<div class="footer-col footer-col-size2">
+					<h3>Partnerships</h3>
+
+					<ul class="list-links">
+						<li>
+							<a href="#">Curabitur Consequat</a>
+						</li>
+						
+						<li>
+							<a href="#">Turbis Nibh</a>
+						</li>
+						
+						<li>
+							<a href="#">Interdum Dictum</a>
+						</li>
+					</ul><!-- /.list-links -->
+				</div><!-- /.footer-col footer-col-size2 -->
+				
+				<div class="footer-col footer-col-size3">
+					<div class="credits">
+						<h4>
+							Proudly serving from Iowa to <a href="#">Midwest based medical practices </a>
+
+							<i class="ico-heart"></i>
+						</h4>
+					</div><!-- /.credits -->
+				</div><!-- /.footer-col footer-col-size3 -->
+			</div><!-- /.footer-content -->
+		</div><!-- /.shell -->
+	</footer><!-- /.footer -->
+</div><!-- /.wrapper -->
+</body>
+</html>

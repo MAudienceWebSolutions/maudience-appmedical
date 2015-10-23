@@ -1,2 +1,3 @@
 Options +Includes
 AddHandler server-parsed .shtml .html .htm
+DirectoryIndex home.html
